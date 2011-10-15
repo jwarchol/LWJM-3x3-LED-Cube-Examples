@@ -90,7 +90,7 @@ void loop() {
   digitalWrite(10, HIGH); delay(1);             
   digitalWrite(10, LOW);  delay(1);               
   digitalWrite(A4, HIGH); delay(1);              
-  digitalWrite(A2, LOW);  elay(1);              
+  digitalWrite(A2, LOW);  delay(1);              
   digitalWrite(A1, HIGH); delay(1);     
   delay(100);   
 
@@ -161,3 +161,4 @@ void loop() {
  digitalWrite(11, LOW);  
 
 }
+

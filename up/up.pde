@@ -1,4 +1,4 @@
-// EXAMPLE spirol
+// EXAMPLE up
 
 void setup() {                
   pinMode(2, OUTPUT);
@@ -16,181 +16,165 @@ void setup() {
   pinMode(A5, OUTPUT);
 }
 
-void writeDelay(pin, mode) {
+void writeDelay(int pin, int mode) {
   digitalWrite(pin, mode);
   delay(1);
 }
 
 void loop() {
-
+  // 0
+  writeDelay(A4, HIGH);   
+  writeDelay(A2, HIGH);   
+  writeDelay(A1, LOW);   
   writeDelay(2, HIGH);  
   writeDelay(2, LOW);  
   writeDelay(A4, HIGH);   
   writeDelay(A2, HIGH);   
   writeDelay(A1, LOW);   
-  delay(100);  
-
   writeDelay(6, HIGH);  
   writeDelay(6, LOW);  
   writeDelay(A4, HIGH);   
   writeDelay(A2, HIGH);   
   writeDelay(A1, LOW);   
-  delay(100); 
-
   writeDelay(10, HIGH);  
   writeDelay(10, LOW);  
   writeDelay(A4, HIGH);   
   writeDelay(A2, HIGH);   
   writeDelay(A1, LOW);   
-  delay(100); 
-
+  writeDelay(4, HIGH);  
+  writeDelay(4, LOW);  
+  writeDelay(A4, HIGH);   
+  writeDelay(A2, HIGH);   
+  writeDelay(A1, LOW);   
+  writeDelay(5, HIGH);  
+  writeDelay(5, LOW);  
+  writeDelay(A4, HIGH);   
+  writeDelay(A2, HIGH);   
+  writeDelay(A1, LOW);   
   writeDelay(7, HIGH);  
   writeDelay(7, LOW);  
   writeDelay(A4, HIGH);   
   writeDelay(A2, HIGH);   
   writeDelay(A1, LOW);   
-  delay(100);   
-
   writeDelay(11, HIGH);  
   writeDelay(11, LOW);  
   writeDelay(A4, HIGH);   
   writeDelay(A2, HIGH);   
   writeDelay(A1, LOW);   
-  delay(100);   
-
   writeDelay(A0, HIGH);  
   writeDelay(A0, LOW);  
   writeDelay(A4, HIGH);   
   writeDelay(A2, HIGH);   
   writeDelay(A1, LOW);   
-  delay(100); 
-
-  writeDelay(A5, HIGH);   
+  writeDelay(A5, HIGH);  
   writeDelay(A5, LOW);  
   writeDelay(A4, HIGH);   
-  writeDelay(A2, LOW);   
-  writeDelay(A1, HIGH);   
-  delay(100); 
-
-  writeDelay(4, HIGH);  
-  writeDelay(4, LOW);  
+  writeDelay(A2, HIGH);   
+  writeDelay(A1, LOW);   
+  delay(100);
+  
+  //1
   writeDelay(A4, HIGH);   
   writeDelay(A2, LOW);   
   writeDelay(A1, HIGH);   
-  delay(100);   
-
   writeDelay(2, HIGH);  
   writeDelay(2, LOW);  
   writeDelay(A4, HIGH);   
-  writeDelay(A2, HIGH);   
-  delay(100);   
-
-  writeDelay(A1, LOW);   
-  writeDelay(6, HIGH);   
-  writeDelay(6, LOW);  
-  writeDelay(A4, LOW);   
-  writeDelay(A2, HIGH);   
+  writeDelay(A2, LOW);   
   writeDelay(A1, HIGH);   
-  delay(100); 
-
+  writeDelay(6, HIGH);  
+  writeDelay(6, LOW);  
+  writeDelay(A4, HIGH);   
+  writeDelay(A2, LOW);   
+  writeDelay(A1, HIGH);   
   writeDelay(10, HIGH);  
   writeDelay(10, LOW);  
   writeDelay(A4, HIGH);   
   writeDelay(A2, LOW);   
   writeDelay(A1, HIGH);   
-  delay(100);   
-
+  writeDelay(4, HIGH);  
+  writeDelay(4, LOW);  
+  writeDelay(A4, HIGH);   
+  writeDelay(A2, LOW);   
+  writeDelay(A1,HIGH);   
+  writeDelay(5, HIGH);  
+  writeDelay(5, LOW);  
+  writeDelay(A4, HIGH);   
+  writeDelay(A2, LOW);   
+  writeDelay(A1, HIGH);   
   writeDelay(7, HIGH);  
   writeDelay(7, LOW);  
   writeDelay(A4, HIGH);   
-  writeDelay(A2, HIGH);   
-  delay(100);   
-
-  writeDelay(A1, LOW);   
-  writeDelay(11, HIGH);   
+  writeDelay(A2, LOW);   
+  writeDelay(A1, HIGH);   
+  writeDelay(11, HIGH);  
   writeDelay(11, LOW);  
   writeDelay(A4, HIGH);   
   writeDelay(A2, LOW);   
   writeDelay(A1, HIGH);   
-  delay(100); 
-
   writeDelay(A0, HIGH);  
   writeDelay(A0, LOW);  
   writeDelay(A4, HIGH);   
   writeDelay(A2, LOW);   
   writeDelay(A1, HIGH);   
-  delay(100);   
-
   writeDelay(A5, HIGH);  
   writeDelay(A5, LOW);  
+  writeDelay(A4, HIGH);   
+  writeDelay(A2, LOW);   
+  writeDelay(A1, HIGH);   
+  delay(100);             
+  
+  //2
   writeDelay(A4, LOW);   
   writeDelay(A2, HIGH);   
-  delay(100);   
-
   writeDelay(A1, HIGH);   
-  writeDelay(4, HIGH);   
-  writeDelay(4, LOW);  
-  writeDelay(A4, LOW);   
-  writeDelay(A2, HIGH);   
-  writeDelay(A1, HIGH);   
-  delay(100); 
-
   writeDelay(2, HIGH);  
   writeDelay(2, LOW);  
   writeDelay(A4, LOW);   
   writeDelay(A2, HIGH);   
   writeDelay(A1, HIGH);   
-  delay(100);   
-
   writeDelay(6, HIGH);  
   writeDelay(6, LOW);  
   writeDelay(A4, LOW);   
   writeDelay(A2, HIGH);   
-  delay(100);   
-
   writeDelay(A1, HIGH);   
-  writeDelay(10, HIGH);   
+  writeDelay(10, HIGH);  
   writeDelay(10, LOW);  
   writeDelay(A4, LOW);   
   writeDelay(A2, HIGH);   
   writeDelay(A1, HIGH);   
-  delay(100); 
-
+  writeDelay(4, HIGH);  
+  writeDelay(4, LOW);  
+  writeDelay(A4, LOW);   
+  writeDelay(A2, HIGH);   
+  writeDelay(A1,HIGH);   
+  writeDelay(5, HIGH);  
+  writeDelay(5, LOW);  
+  writeDelay(A4, LOW);   
+  writeDelay(A2, HIGH);   
+  writeDelay(A1, HIGH);   
   writeDelay(7, HIGH);  
   writeDelay(7, LOW);  
   writeDelay(A4, LOW);   
   writeDelay(A2, HIGH);   
   writeDelay(A1, HIGH);   
-  delay(100);   
-
   writeDelay(11, HIGH);  
   writeDelay(11, LOW);  
   writeDelay(A4, LOW);   
   writeDelay(A2, HIGH);   
-  delay(100);   
-
   writeDelay(A1, HIGH);   
-  writeDelay(A0, HIGH);   
+  writeDelay(A0, HIGH);  
   writeDelay(A0, LOW);  
   writeDelay(A4, LOW);   
   writeDelay(A2, HIGH);   
   writeDelay(A1, HIGH);   
-  delay(100); 
-
   writeDelay(A5, HIGH);  
   writeDelay(A5, LOW);  
   writeDelay(A4, LOW);   
   writeDelay(A2, HIGH);   
   writeDelay(A1, HIGH);   
-  delay(100);   
+  delay(100);             
+  
+  //3
 
-  writeDelay(4, HIGH);  
-  writeDelay(4, LOW);  
-  writeDelay(A4, LOW);   
-  writeDelay(A2, HIGH);   
-  delay(100);   
-
-  writeDelay(A1, HIGH);   
-  delay(1000);             //1
 }
-

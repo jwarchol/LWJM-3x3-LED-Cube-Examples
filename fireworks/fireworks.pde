@@ -16,7 +16,7 @@ void setup() {
   pinMode(A1, OUTPUT);
 
 }
-void writeDelay(pin, mode) {
+void writeDelay(int pin, int mode) {
   digitalWrite(pin, mode);
   delay(1);
 }
