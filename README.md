@@ -1,7 +1,7 @@
 LWJM 3x3 LED Cube Examples
 ==========================
 
-This code is from Look What Joey Made (LWJM). Original code was found here:
+This code is from Look What Joeys Making (LWJM). Original code was found here:
 
 http://lookwhatjoeysmaking.blogspot.com/p/3x3x3-codes.html
 
